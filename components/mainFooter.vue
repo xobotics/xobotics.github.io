@@ -6,21 +6,24 @@
           <div class="footer-title">CONTACT US</div>
           <div>
             Phone:000000<br />
-            Email: 
+            Email:
           </div>
         </div>
 
         <div class="col-lg-6 text-end">
           <div class="footer-title">FOLLOW US</div>
           <div>
-            Phone:000000<br />
-            Email:
+            <a href="#" target="_blank">
+              <img
+                class="footer-icon"
+                src="/icons/facebook.png"
+                alt="Facebook"
+              />
+            </a>
           </div>
         </div>
       </div>
-      <div class="copy-right text-center mt-5">
-        Copyright © 2021 Xobotics
-      </div>
+      <div class="copy-right text-center mt-5">Copyright © 2021 Xobotics</div>
     </div>
   </footer>
 </template>
@@ -40,5 +43,10 @@ export default {};
   color: #ec1c24;
   font-weight: 600;
   font-size: 1.5em;
+}
+.footer-icon {
+  cursor: pointer;
+  width: 35px;
+  height: auto;
 }
 </style>

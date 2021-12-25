@@ -84,7 +84,9 @@
 
 
                   <li class="has-children">
-                    <a href="#about-section" class="nav-link">About Us</a>
+                    <a href="#about-section" class="nav-link">About Us
+                      <img src="/icons/arrow-down.png" alt=">">
+                    </a>
                     <ul class="dropdown arrow-top">
                       <li><a href="#team-section" class="nav-link">Team</a></li>
                       <li><a href="#pricing-section" class="nav-link">Pricing</a></li>
@@ -220,7 +222,10 @@ a:hover {
   position: relative;
   padding-right: 20px;
 }
-.site-navbar .site-navigation .site-menu .has-children > a:before {
+.nav-link img{
+  width: 15px;
+}
+/*.site-navbar .site-navigation .site-menu .has-children > a:before {
   position: absolute;
   content: "\e313";
   font-size: 16px;
@@ -230,7 +235,7 @@ a:hover {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   font-family: "icomoon";
-}
+}*/
 .site-navbar .site-navigation .site-menu .has-children .dropdown {
   visibility: hidden;
   opacity: 0;
