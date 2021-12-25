@@ -1,9 +1,21 @@
 <template>
-  <div class="mt-5 text-center">
-    <h2>Xobotics is under construction!</h2>
+  <div>
+    <section>
+      <home-hero />
+    </section>
+    <section class="container my-5">
+      <home-about />
+    </section>
+    <section class="container my-5">
+      <home-service />
+    </section>
+    <section class="container my-5">
+      <home-partnership />
+    </section>
   </div>
 </template>
 
 <script>
 export default {};
 </script>
+

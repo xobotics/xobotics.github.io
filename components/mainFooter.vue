@@ -1,15 +1,44 @@
 <template>
-  <div>
-    
-  </div>
+  <footer class="main-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="footer-title">CONTACT US</div>
+          <div>
+            Phone:000000<br />
+            Email: 
+          </div>
+        </div>
+
+        <div class="col-lg-6 text-end">
+          <div class="footer-title">FOLLOW US</div>
+          <div>
+            Phone:000000<br />
+            Email:
+          </div>
+        </div>
+      </div>
+      <div class="copy-right text-center mt-5">
+        Copyright © 2021 Xobotics
+      </div>
+    </div>
+  </footer>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
-<style>
-
+<style scoped>
+.main-footer {
+  padding: 70px 50px;
+  padding-bottom: 20px;
+  background-color: #242424;
+  color: #fff;
+}
+.footer-title {
+  color: #ec1c24;
+  font-weight: 600;
+  font-size: 1.5em;
+}
 </style>
