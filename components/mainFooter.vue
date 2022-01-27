@@ -1,12 +1,12 @@
 <template>
-  <footer class="main-footer">
+  <footer class="main-footer" id="footer-section">
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
           <div class="footer-title">CONTACT US</div>
           <div>
-            Phone:000000<br />
-            Email:
+            Phone: (+880) 1701-312939<br />
+            Email: xobotics.io@gmail.com
           </div>
         </div>
 
@@ -23,7 +23,7 @@
           </div>
         </div>
       </div>
-      <div class="copy-right text-center mt-5">Copyright © 2021 Xobotics</div>
+      <div class="copy-right text-center mt-5">Copyright © 2022 Xobotics</div>
     </div>
   </footer>
 </template>
