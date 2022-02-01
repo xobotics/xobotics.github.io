@@ -102,13 +102,14 @@ export default {
         async: true,
         src: '/bootstrap/main.js',
       },*/
-      /*{
+      {
         async: true,
-        src: 'https://www.googletagmanager.com/gtag/js?id=G-EFSLHHNZ5Z'
-      },*/
-      /*{
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-ZLL0NYHQZB'
+      },
+      {
+        async: true,
         src: '/js/main.js'
-      }*/
+      }
     ],
   },
 
