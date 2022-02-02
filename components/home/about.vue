@@ -10,16 +10,20 @@
         </h2>
         <h4>Robotics Development</h4>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-          autem blanditiis sint hic quam ut enim voluptas debitis ex! Quia, in
-          officia fuga nulla explicabo sit delectus doloremque nostrum
-          perspiciatis.
+          XOBOTICS, a system integrator in Bangladesh, was founded in 2021 with
+          the collaboration of 'ICT Division' and 'Startup Bangladesh' and is
+          recognized for its high professional quality of work, dependability,
+          and level of service. The firm came into being as a result of the rise
+          of numerous industries in Bangladesh.
         </p>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
-          veniam, debitis at expedita illum dolores adipisci deleniti
-          dignissimos repellat dolor possimus corrupti aspernatur? Incidunt
-          cumque dolore modi quia numquam tempore!
+          XOBOTICS was founded on and is dedicated to offering a complete
+          industrial business solution that ensures concurrent prosperity by
+          providing genuine and efficient services and supply of high-quality
+          products. At XOBOTICS, our vision is to be the ace champion in
+          Bangladesh's industrial solutions sector by delivering reliable and
+          international quality service and products based on cutting-edge
+          technology.
         </p>
       </div>
     </div>
@@ -31,7 +35,7 @@ export default {};
 </script>
 
 <style scoped>
-#about-section{
+#about-section {
   padding: 70px 50px;
 }
 .about-img {

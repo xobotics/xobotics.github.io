@@ -103,6 +103,11 @@
                     <li>
                       <nuxt-link to="/team" class="nav-link">Team</nuxt-link>
                     </li>
+                    <li>
+                      <nuxt-link to="/privacy-policy" class="nav-link"
+                        >Privacy Policy</nuxt-link
+                      >
+                    </li>
                     <!--<li><a href="#pricing-section" class="nav-link">Pricing</a></li>-->
                     <!--<li><a href="#faq-section" class="nav-link">FAQ</a></li>-->
                     <!--<li class="has-children">

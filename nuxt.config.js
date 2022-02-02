@@ -42,7 +42,7 @@ export default {
       },
       {
         property: 'og:description',
-        content: ''
+        content: "Complete Industrial Business Solution"
       },
       {
         property: 'og:image',
@@ -51,6 +51,10 @@ export default {
       {
         property: 'og:url',
         content: 'https://xobotics.io'
+      },
+      {
+        name: "facebook-domain-verification",
+        content: "cs99nbcrk22pfz8z4j82alghuyvntx"
       },
       {
         property: 'twitter:title',
@@ -62,7 +66,7 @@ export default {
       },
       {
         property: 'twitter:description',
-        content: ''
+        content: "Complete Industrial Business Solution"
       },
       {
         property: 'twitter:image',
@@ -107,7 +111,6 @@ export default {
         src: 'https://www.googletagmanager.com/gtag/js?id=G-ZLL0NYHQZB'
       },
       {
-        async: true,
         src: '/js/main.js'
       }
     ],

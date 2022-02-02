@@ -15,11 +15,8 @@
           <img src="/img/services/1.jpg" class="card-img-top" alt="Arm" />
           <div class="card-body">
             <h5 class="card-title">Robotic Arm</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <a href="#" class="btn btn-primary">Learn more</a>
+            <p class="card-text">Develops robotics arm for industries</p>
+            <a href="#" class="btn btn-primary">Get quote</a>
           </div>
         </div>
       </div>
@@ -30,10 +27,9 @@
           <div class="card-body">
             <h5 class="card-title">Process Automation</h5>
             <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Develops the complete system for process automation.
             </p>
-            <a href="#" class="btn btn-primary">Learn more</a>
+            <a href="#" class="btn btn-primary">Get quote</a>
           </div>
         </div>
       </div>
@@ -60,7 +56,7 @@ export default {};
 </script>
 
 <style scoped>
-#services-section{
+#services-section {
   padding: 70px 50px;
 }
 .card {
@@ -74,8 +70,9 @@ export default {};
   width: auto;
   object-fit: contain;
 }
-.card:hover{
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
   transform: scale(1.01);
 }
 </style>

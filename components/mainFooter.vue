@@ -13,7 +13,7 @@
         <div class="col-lg-6 text-end">
           <div class="footer-title">FOLLOW US</div>
           <div>
-            <a href="#" target="_blank">
+            <a href="https://www.facebook.com/xobotics" target="_blank">
               <img
                 class="footer-icon"
                 src="/icons/facebook.png"
