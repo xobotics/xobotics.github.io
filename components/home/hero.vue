@@ -5,12 +5,14 @@
         <h1 class="primary-color" style="font-weight: 800; font-size: 4em">
           Robotics & Automation
         </h1>
-        <h4>Develops the next generation industrial robots</h4>
+        <h4>
+          Develops the next generation industrial and military grade robots
+        </h4>
         <p>
-          XOBOTICS, a system integrator in Bangladesh, was founded in 2021 with
-          the collaboration of 'ICT Division' and 'Startup Bangladesh' and is
-          recognized for its high professional quality of work, dependability,
-          and level of service.
+          XOBOTICS is an Robotics and Autonomous system manufacturer with the
+          collaboration of ICT Division in Bangladesh. It is dedicated to offer
+          industrial and military grade robotics and automation solution
+          ensuring high-quality products and reliable maintenance services.
         </p>
         <a href="/#footer-section" class="btn btn-primary btn-lg mt-3"
           >Contact</a

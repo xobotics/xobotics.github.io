@@ -12,10 +12,13 @@
 
       <div class="col-lg-4">
         <div class="card">
-          <img src="/img/services/1.jpg" class="card-img-top" alt="Arm" />
+          <img src="/img/services/1.jpg" class="card-img-top" alt="Robotic Arm" />
           <div class="card-body">
             <h5 class="card-title">Robotic Arm</h5>
-            <p class="card-text">Develops robotics arm for industries</p>
+            <p class="card-text">
+              Develops Industrial grade Robotic Arm for Smart Industrial
+              Integration
+            </p>
             <a href="#" class="btn btn-primary">Get quote</a>
           </div>
         </div>
@@ -23,7 +26,7 @@
 
       <div class="col-lg-4">
         <div class="card">
-          <img src="/img/services/2.png" class="card-img-top" alt="Arm" />
+          <img src="/img/services/2.png" class="card-img-top" alt="Process Automation" />
           <div class="card-body">
             <h5 class="card-title">Process Automation</h5>
             <p class="card-text">
@@ -34,19 +37,18 @@
         </div>
       </div>
 
-      <!--<div class="col-lg-4">
+      <div class="col-lg-4">
         <div class="card">
-          <img src="/img/services/1.jpg" class="card-img-top" alt="Arm" />
+          <img src="/img/services/3.jpg" class="card-img-top" alt="ANS" />
           <div class="card-body">
-            <h5 class="card-title">Robotic Arm</h5>
+            <h5 class="card-title">Autonomous Navigation System (ANS)</h5>
             <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Develops ANS for Multi-Purposed Robotic Systems.
             </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="#" class="btn btn-primary">Get quote</a>
           </div>
         </div>
-      </div>-->
+      </div>
     </div>
   </section>
 </template>
