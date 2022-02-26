@@ -10,14 +10,19 @@
         </h2>
         <h4>Robotics Development</h4>
         <p>
-          Our Vision is to be the Forerunner in Bangladesh’s Robotics and
-          Automation sector by manufacturing high quality products and
-          delivering reliable services based on cutting edge technologies.
+          XOBOTICS is a Robotics and Autonomous system manufacturer founded in
+          2021 with the collaboration of the ICT Division and StartUp
+          Bangladesh.
         </p>
         <p>
-          XOBOTICS is dedicated to offer industrial and military grade robotics
-          and automation solution ensuring high-quality products and reliable
-          maintenance services.
+          Xobotics is recognized for its high professional quality of work,
+          dependability, and level of services by offering a complete industrial
+          and military grade robotics and automation solution.
+        </p>
+        <p>
+          At XOBOTICS, Our Vision is to be the Forerunner in Bangladesh’s
+          Robotics and Automation sector by manufacturing high quality products
+          and delivering reliable services based on cutting edge technologies.
         </p>
         <!--<p>
           XOBOTICS, a system integrator in Bangladesh, was founded in 2021 with

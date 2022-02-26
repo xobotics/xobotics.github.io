@@ -11,7 +11,7 @@
     <div class="my-5 row justify-content-center">
       <div class="col-lg-3">
         <div class="card">
-          <img src="/img/team/akib_zaman.jpg" class="card-img-top" alt="Arm" />
+          <img src="/img/team/akib_zaman.jpg" class="card-img-top" alt="Akib Zaman" />
           <div class="card-body">
             <h5 class="card-title">Akib Zaman</h5>
             <p class="card-text">Director & CEO</p>
@@ -20,7 +20,7 @@
       </div>
       <div class="col-lg-3">
         <div class="card">
-          <img src="/img/team/ahasan.jpg" class="card-img-top" alt="Arm" />
+          <img src="/img/team/ahasan.jpg" class="card-img-top" alt="Ahasan" />
           <div class="card-body">
             <h5 class="card-title">Ahasan Siddique</h5>
             <p class="card-text">Chief Operating Officer</p>
@@ -29,7 +29,7 @@
       </div>
       <div class="col-lg-3">
         <div class="card">
-          <img src="/img/team/tanjim.jpeg" class="card-img-top" alt="Arm" />
+          <img src="/img/team/tanjim.jpg" class="card-img-top" alt="Tanjim" />
           <div class="card-body">
             <h5 class="card-title">Shoeb Ahmed</h5>
             <p class="card-text">Chief Technology Officer</p>
@@ -38,7 +38,7 @@
       </div>
       <div class="col-lg-3">
         <div class="card">
-          <img src="/img/team/shafayet.jpg" class="card-img-top" alt="Arm" />
+          <img src="/img/team/shafayet.jpg" class="card-img-top" alt="Shafayet" />
           <div class="card-body">
             <h5 class="card-title">Shafayetul Islam</h5>
             <p class="card-text">Principal Hardware Officer</p>
