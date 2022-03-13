@@ -1,7 +1,9 @@
 <template>
-  <!--<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/">Xobotics</a>
+      <a class="navbar-brand" href="/">
+        <img src="/xobotics-logo.png" alt="Xobotics Logo" class="brand-logo" />
+      </a>
       <button
         class="navbar-toggler"
         type="button"
@@ -18,19 +20,44 @@
           <li class="nav-item">
             <nuxt-link class="nav-link" to="/" tag="a">Home</nuxt-link>
           </li>
-          <li class="nav-item">
-            <nuxt-link class="nav-link" to="/about" tag="a">About Us</nuxt-link>
+          <li>
+            <nuxt-link to="/#services-section" class="nav-link"
+              >Services</nuxt-link
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              About Us
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <nuxt-link class="dropdown-item" to="/team">Team</nuxt-link>
+              </li>
+              <li><hr class="dropdown-divider" /></li>
+              <li>
+                <nuxt-link class="dropdown-item" to="/privacy-policy"
+                  >Privacy Policy</nuxt-link
+                >
+              </li>
+            </ul>
           </li>
           <li class="nav-item">
-            <nuxt-link class="nav-link" to="/contact" tag="a"
-              >Contact Us</nuxt-link
+            <nuxt-link class="nav-link" to="/#footer-section" tag="a"
+              >Contact</nuxt-link
             >
           </li>
         </ul>
       </div>
     </div>
-  </nav>-->
-  <div>
+  </nav>
+  <!--<div>
     <div class="site-mobile-menu site-navbar-target">
       <div class="site-mobile-menu-header">
         <div class="site-mobile-menu-close mt-3">
@@ -40,30 +67,6 @@
       <div class="site-mobile-menu-body"></div>
     </div>
 
-    <!--<div class="top-bar">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <a href="#" class=""><span class="me-2  icon-envelope-open-o"></span> <span class="d-none d-md-inline-block">info@yourdomain.com</span></a>
-              <span class="mx-md-2 d-inline-block"></span>
-              <a href="#" class=""><span class="me-2  icon-phone"></span> <span class="d-none d-md-inline-block">1+ (234) 5678 9101</span></a>
-
-
-              <div class="float-end">
-
-                <a href="#" class=""><span class="me-2  icon-twitter"></span> <span class="d-none d-md-inline-block">Twitter</span></a>
-                <span class="mx-md-2 d-inline-block"></span>
-                <a href="#" class=""><span class="me-2  icon-facebook"></span> <span class="d-none d-md-inline-block">Facebook</span></a>
-
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-      </div>-->
-
     <header
       class="site-navbar js-sticky-header site-navbar-target"
       role="banner"
@@ -71,9 +74,9 @@
       <div class="container">
         <div class="row align-items-center position-relative">
           <div class="site-logo">
-            <nuxt-link to="/" tag="a" class="text-black"
-              ><span class="text-primary">Xobotics</span></nuxt-link
-            >
+            <nuxt-link to="/" tag="a">
+              <img src="/xobotics-logo.png" alt="Xobotics Logo" class="logo" />
+            </nuxt-link>
           </div>
 
           <div class="col-12">
@@ -108,23 +111,23 @@
                         >Privacy Policy</nuxt-link
                       >
                     </li>
-                    <!--<li><a href="#pricing-section" class="nav-link">Pricing</a></li>-->
-                    <!--<li><a href="#faq-section" class="nav-link">FAQ</a></li>-->
-                    <!--<li class="has-children">
+                    < !--<li><a href="#pricing-section" class="nav-link">Pricing</a></li>-->
+  <!--<li><a href="#faq-section" class="nav-link">FAQ</a></li>-->
+  <!--<li class="has-children">
                         <a href="#">More Links</a>
                         <ul class="dropdown">
                           <li><a href="#">Menu One</a></li>
                           <li><a href="#">Menu Two</a></li>
                           <li><a href="#">Menu Three</a></li>
                         </ul>
-                      </li>-->
+                      </li>-- >
                   </ul>
                 </li>
 
-                <!--<li><a href="#why-us-section" class="nav-link">Why Us</a></li>-->
+                <! --<li><a href="#why-us-section" class="nav-link">Why Us</a></li>-- >
 
-                <!--<li><a href="#testimonials-section" class="nav-link">Testimonials</a></li>-->
-                <!--<li><a href="#blog-section" class="nav-link">Blog</a></li>-->
+                <! --<li><a href="#testimonials-section" class="nav-link">Testimonials</a></li>-->
+  <!--<li><a href="#blog-section" class="nav-link">Blog</a></li>-- >
                 <li>
                   <nuxt-link to="/#footer-section" class="nav-link"
                     >Contact</nuxt-link
@@ -142,7 +145,7 @@
         </div>
       </div>
     </header>
-  </div>
+  </div>-->
 </template>
 
 <script>
@@ -169,6 +172,20 @@ a:hover {
 }
 .top-bar a {
   color: #666666;
+}
+
+.site-logo img,
+.brand-logo {
+  height: 50px;
+  width: auto;
+}
+
+@media (max-width: 500px) {
+  .site-logo img,
+  .brand-logo {
+    height: 35px;
+    width: auto;
+  }
 }
 
 .site-navbar {
