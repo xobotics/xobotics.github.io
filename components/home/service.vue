@@ -1,60 +1,62 @@
 <template>
-  <section id="services-section" class="container">
-    <div class="row justify-content-center">
-      <div class="col-12">
-        <h2
-          class="primary-color mb-5 text-center"
-          style="font-weight: 800; font-size: 4em"
-        >
-          Services we provide
-        </h2>
-      </div>
+  <section id="services-section" class="container mx-auto">
+  
+    <div class="text-center">
+      <h2
+        class="primary-color mb-5 text-center"
+        style="font-weight: 800; font-size: 4em"
+      >
+        Services we provide
+      </h2>
+    </div>
+    <div class="flex flex-wrap justify-center">
 
-      <div class="col-lg-4">
-        <div class="card">
-          <img src="/img/services/1.jpg" class="card-img-top" alt="Robotic Arm" />
-          <div class="card-body">
-            <h5 class="card-title">Robotic Arm</h5>
-            <p class="card-text">
-              Develops Industrial grade Robotic Arm for Smart Industrial
-              Integration
+      <div v-for="(val,i) in services" :key="i" class="cursor-pointer rounded m-3">
+        <div class="card ">
+          <img :src="val.img" class="card-img-top" :alt="val.title" />
+          <div class="card-body p-2">
+            <h5 class="card-title">{{ val.title }}</h5>
+            <p class="card-text my-2">
+              {{ val.text }}
             </p>
-            <a href="#" class="btn btn-primary">Get quote</a>
+            <button class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
+              <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                Learn More
+              </span>
+            </button>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-4">
-        <div class="card">
-          <img src="/img/services/2.png" class="card-img-top" alt="Process Automation" />
-          <div class="card-body">
-            <h5 class="card-title">Process Automation</h5>
-            <p class="card-text">
-              Develops the complete system for process automation.
-            </p>
-            <a href="#" class="btn btn-primary">Get quote</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="card">
-          <img src="/img/services/3.jpg" class="card-img-top" alt="ANS" />
-          <div class="card-body">
-            <h5 class="card-title">Autonomous Navigation System (ANS)</h5>
-            <p class="card-text">
-              Develops ANS for Multi-Purposed Robotic Systems.
-            </p>
-            <a href="#" class="btn btn-primary">Get quote</a>
-          </div>
-        </div>
-      </div>
     </div>
   </section>
 </template>
 
 <script>
-export default {};
+export default {
+  data(){
+    return {
+      services:[{
+        title:'Robotic Arm',
+        text:'Develops Industrial grade Robotic Arm for Smart Industrial Integration',
+        link:'#',
+        img:'/img/services/1.jpg'
+      },
+      {
+        title:'Process Automation',
+        text:'Develops the complete system for process automation.',
+        link:'#',
+        img:'/img/services/2.png'
+      },
+      {
+        title:'Autonomous Navigation System (ANS)',
+        text:'Develops ANS for Multi-Purposed Robotic Systems.',
+        link:'#',
+        img:'/img/services/3.jpg'
+      }]
+    }
+  }
+};
 </script>
 
 <style scoped>

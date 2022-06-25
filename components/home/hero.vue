@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="row mx-0 hero-bg-img">
-      <div class="col-lg-6 p-5">
+    <div class="md:flex mx-0 hero-bg-img">
+      <div class="p-5">
         <h1 class="primary-color" style="font-weight: 800; font-size: 4em">
           Robotics & Automation
         </h1>
@@ -19,8 +19,8 @@
         >
         <!--<div class="dotted-bg"></div>-->
       </div>
-      <div class="col-lg-6 p-0 img-container">
-        <img class="hero-img" src="/img/hero-img.png" alt="Arm" />
+      <div class="p-0 img-container">
+        <img class="hero-img sm:mx-auto" src="/img/hero-img.png" alt="Arm" />
       </div>
     </div>
   </div>

@@ -13,6 +13,9 @@ $ npm run dev
 $ npm run build
 $ npm run start
 
+# compile tailwind
+$ npx tailwindcss -i ./src/css/input.css -o ./static/css/tailwind.css --watch
+
 # generate static project
 $ npm run generate
 ```

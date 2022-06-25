@@ -1,10 +1,10 @@
 <template>
-  <section id="about-section" class="container">
-    <div class="row">
-      <div class="col-lg-4 about-img-container">
+  <section id="about-section" class="container mx-auto">
+    <div class="flex flex-col md:flex-row">
+      <div class="about-img-container">
         <img class="about-img" src="/img/about-img.jpg" alt="Arm" />
       </div>
-      <div class="col-lg-8 p-5">
+      <div class="md:order-1 p-5">
         <h2 class="primary-color" style="font-weight: 800; font-size: 4em">
           What we do?
         </h2>

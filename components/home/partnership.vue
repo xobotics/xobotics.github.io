@@ -1,23 +1,22 @@
 <template>
-  <section class="container" id="partnership-section">
-    <div class="row justify-content-center">
-      <div class="col-12">
-        <h2
-          class="primary-color mb-5 text-center"
-          style="font-weight: 800; font-size: 4em"
-        >
-          Our Partners
-        </h2>
-      </div>
-
-      <div class="col-lg-3 partner-img-container">
+  <section class="container mx-auto" id="partnership-section">
+    <div class="text-center">
+      <h2
+        class="primary-color mb-5 text-center"
+        style="font-weight: 800; font-size: 4em"
+      >
+        Our Partners
+      </h2>
+    </div>
+    <div class="flex justify-center">
+      <div class="partner-img-container">
         <img
           class="partner-logo"
           src="/img/partner/ict-division.png"
           alt="ICT Division"
         />
       </div>
-      <div class="col-lg-3 partner-img-container">
+      <div class="partner-img-container">
         <img
           class="partner-logo"
           src="/img/partner/startup-bd.jpg"
@@ -54,7 +53,7 @@ export default {};
   text-align: center;
 }
 .partner-logo {
-  width: 70%;
+  width: 300px;
   margin: auto;
 }
 </style>
