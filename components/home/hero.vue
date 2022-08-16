@@ -7,7 +7,7 @@
             <h1 class="a1N a2o a1P a2p a1k dark:aT md:a2Q[45px]">
               Robotics & Automation
             </h1>
-            <h4>
+            <h4 class="a3r a1N aH[620px] aO a1R aQ dark:aT">
               Develops the next generation industrial and military grade robots
             </h4>
             <p class="a3r a1N aH[620px] aO a1R aQ dark:aT">
