@@ -12,7 +12,7 @@
     <div class="flex flex-wrap justify-center">
 
       <div v-for="(val,i) in services" :key="i" class="cursor-pointer rounded m-3">
-        <div class="card ">
+        <div class="card primary-bg rounded">
           <img :src="val.img" class="card-img-top" :alt="val.title" />
           <div class="card-body p-2">
             <h5 class="card-title">{{ val.title }}</h5>

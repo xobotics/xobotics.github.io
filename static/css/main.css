@@ -22,3 +22,19 @@ body {
   background-color: #0d6efd !important;
   border-color: #0d6efd !important;
 }
+
+.a0 .text-color {
+  color: #fff;
+}
+
+.text-color {
+  color: #111;
+}
+
+.primary-bg {
+  background-color: #fff;
+}
+
+h4{
+  font-size: 1.85rem!important;
+}

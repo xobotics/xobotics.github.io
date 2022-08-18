@@ -8,7 +8,7 @@
         Our Partners
       </h2>
     </div>
-    <div class="flex justify-center">
+    <div class="grid md:grid-cols-2 justify-items-center">
       <div class="partner-img-container">
         <img
           class="partner-logo"

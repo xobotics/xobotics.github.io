@@ -1,5 +1,5 @@
 <template>
-  <div class="container img-container">
+  <div class="container mx-auto img-container">
     <img src="/img/404.png" class="img-404" alt="404 Page Not Found" />
   </div>
 </template>
@@ -15,5 +15,6 @@ export default {};
 }
 .img-404 {
   width: 50%;
+  margin: auto;
 }
 </style>

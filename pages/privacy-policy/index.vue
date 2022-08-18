@@ -1,5 +1,5 @@
 <template>
-  <div class="container my-5">
+  <div class="container container-mx mx-auto mt-60 text-color">
     <h1>Privacy Policy for Xobotics</h1>
 
     <p>
@@ -222,5 +222,4 @@
 export default {};
 </script>
 
-<style>
-</style>
+<style></style>

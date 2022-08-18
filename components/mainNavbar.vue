@@ -12,7 +12,11 @@
             class="an ab a2h lg:aW"
           >
             <img src="/xobotics-logo.png" alt="logo" class="ab dark:ao" />
-            <img src="/xobotics-logo-light.png" alt="logo" class="ao ab dark:an" />
+            <img
+              src="/xobotics-logo-light.png"
+              alt="logo"
+              class="ao ab dark:an"
+            />
           </a>
         </div>
         <div class="aa ab ac ap ak">
@@ -52,7 +56,7 @@
                 </li>
                 <li>
                   <a
-                    href="/"
+                    href="/#services-section"
                     class="scroll-menu aa am aO aP aQ hover:aR dark:aS dark:hover:aT lg:aU lg:aV lg:aW xl:aX 2xl:aY"
                   >
                     Services
@@ -118,7 +122,7 @@
             </div>
             <div class="ao sm:aa">
               <a
-                href="/"
+                href="/#footer-section"
                 class="aa ac a1t a1u a1C a1D aw[9px] a1E a1F aP aQ a1G hover:a1H hover:a1A hover:aT dark:a1I dark:aT dark:hover:a1 dark:hover:aR lg:px-4 xl:px-8"
               >
                 Contact
@@ -172,12 +176,15 @@ export default {
     };
   },
   mounted() {
+    window.pageYOffset >= 50
+      ? (this.scrolledFromTop = true)
+      : (this.scrolledFromTop = false);
 
-    window.pageYOffset >= 50 ? this.scrolledFromTop = true : this.scrolledFromTop = false
-
-    document.addEventListener('scroll', ()=>{
-      window.pageYOffset >= 50 ? this.scrolledFromTop = true : this.scrolledFromTop = false
-    })
+    document.addEventListener("scroll", () => {
+      window.pageYOffset >= 50
+        ? (this.scrolledFromTop = true)
+        : (this.scrolledFromTop = false);
+    });
 
     // add class in body tag
     document.querySelector("body").classList.add("a1", "dark:a2");

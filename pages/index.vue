@@ -18,7 +18,3 @@
 <script>
 export default {};
 </script>
-
-<style>
-@import "@/static/css/tailwind2.css"
-</style>
