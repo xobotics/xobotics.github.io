@@ -108,7 +108,7 @@
               <h2 class="a2K a2B a1P a1k dark:aT">Quick Links</h2>
               <div class="a34">
                 <a
-                  href="javascript:void(0)"
+                  href="/news"
                   class="an a1F a1R aQ hover:aR dark:aS dark:hover:aR"
                 >
                   News

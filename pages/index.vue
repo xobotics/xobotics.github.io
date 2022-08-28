@@ -10,6 +10,9 @@
       <home-service />
     </div>
     <div class="my-5">
+      <home-news />
+    </div>
+    <div class="my-5">
       <home-partnership />
     </div>
   </div>
