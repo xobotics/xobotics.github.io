@@ -10,7 +10,7 @@
       <home-service />
     </div>
     <div class="my-5">
-      <home-news />
+      <home-news :news="news" />
     </div>
     <div class="my-5">
       <home-partnership />
@@ -19,5 +19,10 @@
 </template>
 
 <script>
-export default {};
+export default {
+  async asyncData({ $content }) {
+    const news = await $content('news').limit(3).fetch()
+    return { news }
+  },
+};
 </script>

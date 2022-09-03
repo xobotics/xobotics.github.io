@@ -73,21 +73,8 @@
 </template>
 <script>
 export default {
-  data() {
-    return {
-      news: [
-        {
-          id: 1,
-          title:
-            "MOU Signing with ASC Centre & School (Bangladesh Army) for the Development of Military Driving Simulation System.",
-          desc: "",
-          img: "/img/news/mou-with-asc.jpg",
-          date: "Jul 21, 2022",
-        },
-      ],
-    };
-  },
-};
+  props:['news']
+}
 </script>
 <style scoped>
 .justify-content {

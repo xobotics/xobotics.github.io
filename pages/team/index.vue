@@ -27,28 +27,44 @@
           <div
             v-for="(val, i) in team"
             v:bind:key="i"
-            class="ab ak sm:a1M/2 lg:a1M/4"
+            class="flex flex-col md:flex-row"
           >
-            <div
-              class="aZ wow fadeInUp a1W au a4c a21 a1v a1f a2G a1G hover:a1H dark:a3"
-              data-wow-delay="0s"
-              style="
-                visibility: visible;
-                animation-delay: 0s;
-                animation-name: fadeInUp;
-              "
-            >
-              <div class="a2a a2c a1i">
-                <img
-                  :src="val.pic_url"
-                  alt="team"
-                  class="a4d ab team-member-img"
-                />
+            <div class="px-4 ak basis-full md:basis-1/4" :class="{'md:order-2': i%2==1 }">
+              <div
+                class="aZ wow fadeInUp a1W au a4c a21 a1v a1f a1G hover:a1H dark:a3"
+                data-wow-delay="0s"
+                style="
+                  visibility: visible;
+                  animation-delay: 0s;
+                  animation-name: fadeInUp;
+                "
+              >
+                <div class="a2c a1i">
+                  <img
+                    :src="val.pic_url"
+                    alt="team"
+                    class="a4d ab team-member-img"
+                  />
+                </div>
               </div>
-              <div>
+            </div>
+            <div class="px-4 basis-full md:basis-3/4">
+              <div
+                class="aZ wow fadeInUp a1W au a4c a21 a1v a1f a1G hover:a1H dark:a3"
+                data-wow-delay="0s"
+                style="
+                  visibility: visible;
+                  animation-delay: 0s;
+                  animation-name: fadeInUp;
+                "
+              >
                 <h3 class="a2s aO aP a1k dark:aT">{{ val.name }}</h3>
                 <p class="a2d a1j a1R aQ dark:aS">{{ val.role }}</p>
-                <div class="a1N aa ac a1t a4e">
+
+                <div class="dark:aT">
+                  {{ val.bio }}
+                </div>
+                <div class="a1N aa ac a4e mt-5">
                   <a
                     v-if="val.social_link.fb"
                     :href="val.social_link.fb"
@@ -124,6 +140,7 @@ export default {
           name: "Akib Zaman",
           role: "Director & CEO",
           pic_url: "/img/team/akib_zaman.jpg",
+          bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque soluta quos quaerat, ipsa voluptatem aspernatur porro autem? Quod laboriosam, voluptatum ipsa rerum iste, nihil a animi amet voluptate itaque vel.",
           social_link: {
             fb: "",
             linkedin:
@@ -136,6 +153,7 @@ export default {
           name: "Ahasan Siddique",
           role: "Chief Operating Officer",
           pic_url: "/img/team/ahasan.jpg",
+          bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque soluta quos quaerat, ipsa voluptatem aspernatur porro autem? Quod laboriosam, voluptatum ipsa rerum iste, nihil a animi amet voluptate itaque vel.",
           social_link: {
             fb: "",
             linkedin: "https://www.linkedin.com/in/ahasansiddique/",
@@ -147,6 +165,7 @@ export default {
           name: "Shoeb Ahmed",
           role: "Chief Technology Officer",
           pic_url: "/img/team/tanjim.jpg",
+          bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque soluta quos quaerat, ipsa voluptatem aspernatur porro autem? Quod laboriosam, voluptatum ipsa rerum iste, nihil a animi amet voluptate itaque vel.",
           social_link: {
             fb: "",
             linkedin: "https://www.linkedin.com/in/satanjim/",
@@ -158,6 +177,7 @@ export default {
           name: "Shafayetul Islam",
           role: "Principal Hardware Officer",
           pic_url: "/img/team/shafayet.jpg",
+          bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque soluta quos quaerat, ipsa voluptatem aspernatur porro autem? Quod laboriosam, voluptatum ipsa rerum iste, nihil a animi amet voluptate itaque vel.",
           social_link: {
             fb: "",
             linkedin: "https://www.linkedin.com/in/shafayetul-islam-726874155/",

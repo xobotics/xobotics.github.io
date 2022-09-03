@@ -72,19 +72,9 @@
 </template>
 <script>
 export default {
-  data() {
-    return {
-      news: null,
-      loading: true,
-    };
-  },
-  async created() {
-    this.loading = true;
-    let res = await fetch("https://xobotics.io/news.json");
-    res = await res.json();
-    this.news = res.news;
-    this.loading = false;
-    console.log(this.news);
+  async asyncData({ $content }) {
+    const news = await $content('news').fetch()
+    return { news }
   },
 }
 </script>
