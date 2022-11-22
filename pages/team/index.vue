@@ -140,7 +140,7 @@ export default {
           name: "Akib Zaman",
           role: "Director & CEO",
           pic_url: "/img/team/akib_zaman.jpg",
-          bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque soluta quos quaerat, ipsa voluptatem aspernatur porro autem? Quod laboriosam, voluptatum ipsa rerum iste, nihil a animi amet voluptate itaque vel.",
+          bio: "Mr. Akib Zaman is an early career educator, researcher and entrepreneur in Bangladesh. Beside managing Xobotics, he is currently a Lecturer in Department of CSE, United international University, Bangladesh. He participated and won several National and International awards on Robotics specifically focusing on Space Robotics within this short career. Akib aspires to be an inspiration to the Young Generation through his creative strategies and exemplary leadership.",
           social_link: {
             fb: "",
             linkedin:
@@ -153,7 +153,7 @@ export default {
           name: "Ahasan Siddique",
           role: "Chief Operating Officer",
           pic_url: "/img/team/ahasan.jpg",
-          bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque soluta quos quaerat, ipsa voluptatem aspernatur porro autem? Quod laboriosam, voluptatum ipsa rerum iste, nihil a animi amet voluptate itaque vel.",
+          bio: "Ahasan Siddique completed the B.Sc. degree in mechanical engineering from the Military Institute of Science and Technology (MIST), Dhaka. He is currently a Lecturer at the Department of Mechanical Engineering, Military Institute of Science and Technology (MIST). He has experience in research works for premium robotics competitions like University Rover Challenge (URC) and U.K.-RAS Medical Robotics Challenge for contagious diseases. He is also working on project of robotic arm for contour digitization. His research interests include robotics, machine design, computer-aided design, control systems, 3D printing, unmanned aerial vehicle, and automobile.",
           social_link: {
             fb: "",
             linkedin: "https://www.linkedin.com/in/ahasansiddique/",
@@ -165,10 +165,10 @@ export default {
           name: "Shoeb Ahmed",
           role: "Chief Technology Officer",
           pic_url: "/img/team/tanjim.jpg",
-          bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque soluta quos quaerat, ipsa voluptatem aspernatur porro autem? Quod laboriosam, voluptatum ipsa rerum iste, nihil a animi amet voluptate itaque vel.",
+          bio: "Shoeb Ahmed is currently pursuing the B.Sc. degree with the Department of Computer Science and Engineering, Military Institute of Science and Technology (MIST). His research interests include artificial intelligence, image processing, robotics, and the IoT.",
           social_link: {
             fb: "",
-            linkedin: "https://www.linkedin.com/in/satanjim/",
+            linkedin: "",
             twitter: "",
             youtube: "",
           },
@@ -177,7 +177,7 @@ export default {
           name: "Shafayetul Islam",
           role: "Principal Hardware Officer",
           pic_url: "/img/team/shafayet.jpg",
-          bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque soluta quos quaerat, ipsa voluptatem aspernatur porro autem? Quod laboriosam, voluptatum ipsa rerum iste, nihil a animi amet voluptate itaque vel.",
+          bio: "Shafayetul Islam is currently pursuing the B.Sc. degree with the Department of Computer Science and Engineering, Military Institute of Science and Technology (MIST). His research interests include artificial intelligence, image processing, robotics, and the IoT.",
           social_link: {
             fb: "",
             linkedin: "https://www.linkedin.com/in/shafayetul-islam-726874155/",

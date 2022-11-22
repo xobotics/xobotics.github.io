@@ -8,12 +8,12 @@
               Robotics & Automation
             </h1>
             <h4 class="a3r a1N aH[620px] aO a1R aQ dark:aT">
-              Develops the next generation industrial and military grade robots
+              Develops the next generation INDUSTRIAL and MILITARY grade robots
             </h4>
-            <p class="a3r a1N aH[620px] aO a1R aQ dark:aT">
+            <p class="a3r a1N aH[620px] aO a1R aQ dark:aT text-justify">
               XOBOTICS is a Robotics and Autonomous system manufacturer with the
               collaboration of ICT Division in Bangladesh. It is dedicated to
-              offer industrial and military grade robotics and automation
+              offer INDUSTRIAL and MILITARY grade robotics and automation
               solution ensuring high-quality products and reliable maintenance
               services.
             </p>

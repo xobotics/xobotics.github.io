@@ -53,6 +53,11 @@ export default {};
 #about-section {
   padding: 70px 50px;
 }
+#about-section p{
+  margin-top:15px;
+  margin-bottom:15px;
+  text-align: justify;
+}
 .about-img {
   width: 100%;
 }
