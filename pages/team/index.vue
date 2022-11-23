@@ -18,10 +18,10 @@
           <h2 class="a2d a2o a1P a2p a1k dark:aT md:a2Q[45px]">
             Meet out Team
           </h2>
-          <p class="aO a1R aQ dark:aS">
+          <!--<p class="aO a1R aQ dark:aS">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed
             congue arcu, In et dignissim quam condimentum vel.
-          </p>
+          </p>-->
         </div>
         <div class="ag aa a1L">
           <div
